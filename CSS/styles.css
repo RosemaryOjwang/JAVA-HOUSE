@@ -1,12 +1,85 @@
 .navbar {
+  width: 100%;
+  height: auto;
+  position: sticky;
+  top: 0;
+  font-size: 28px;
+  margin-bottom: 40px;
+
+}
+
+.top {
   background-image: url('../IMG/coffee_beans.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  height: 350px;
   width: 100%;
-  height: 15%;
-  position: fixed;
-  top: 0;
-  font-size: 28px;
+  color: #FFFFFF;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 5%;
+}
 
+a {
+  text-decoration: none;
+  margin-right: 25px;
+  color: #FF0000;
+}
+
+img {
+  max-height: 10%;
+  max-width: 10%;
+}
+
+.contacts {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.Get-in-touch {
+  grid-column: 1/2;
+}
+
+.Drop-us-a-line {
+  grid-column: 2/3;
+}
+
+body {
+  text-align: center;
+}
+
+button {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  width: 180px;
+  height: 45px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+textarea {
+  width: 60%;
+  height: 55px;
+  border-radius: 5px;
+}
+
+input {
+  width: 60%;
+  height: 45px;
+  border-radius: 5px;
+}
+
+.background-style {
+  background-color: #C6C6C6;
+  border-radius: 5px;
+  height: 80%;
+  width: 80%;
+}
+
+header {
+  margin-top: 5%;
 }
