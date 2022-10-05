@@ -13,12 +13,38 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 350px;
+  height: 450px;
   width: 100%;
   color: #FFFFFF;
   font-size: 15px;
   text-align: center;
   margin-top: 5%;
+}
+.top-Homepage {
+  background-image: url('../IMG/coffee_beans1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 450px;
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 5%;
+}
+.areas_touched{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.farming{
+  grid-column: 1/2;
+
+}
+.feeding_children{
+  grid-column: 2/3;
+}
+.art{
+  grid-column: 3/4;
 }
 
 a {
@@ -28,8 +54,8 @@ a {
 }
 
 img {
-  max-height: 10%;
-  max-width: 10%;
+  max-height: 45%;
+  max-width: 45%;
 }
 
 .contacts {
