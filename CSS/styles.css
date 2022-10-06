@@ -1,12 +1,22 @@
 .navbar {
   width: 100%;
-  height: auto;
+  height: 60px;
   position: sticky;
   top: 0;
   font-size: 28px;
-  margin-bottom: 40px;
-
+  margin-bottom: 0;
+  margin-top: -40px;
+  background-color: #612D08;
+  }
+.page-heading-align-left{
+  text-align: left;
+  margin-left: 15px;
+  color: #FFFFFF;
 }
+.pages-link-align{
+  margin-left: 75%;
+  margin-top: -90px;
+  }
 
 .top {
   background-image: url('../IMG/coffee_beans.jpg');
@@ -18,8 +28,9 @@
   color: #FFFFFF;
   font-size: 15px;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 0;
 }
+
 .top-Homepage {
   background-image: url('../IMG/coffee_beans1.jpg');
   background-repeat: no-repeat;
@@ -30,27 +41,32 @@
   color: #FFFFFF;
   font-size: 15px;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 0;
 }
-.areas_touched{
+
+.areas_touched {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.farming{
+
+.farming {
   grid-column: 1/2;
 
 }
-.feeding_children{
+
+.feeding_children {
   grid-column: 2/3;
 }
-.art{
+
+.art {
   grid-column: 3/4;
 }
 
 a {
   text-decoration: none;
   margin-right: 25px;
-  color: #FF0000;
+  color: #FFFFFF;
+  font-size: 0.6em;
 }
 
 img {
@@ -108,4 +124,144 @@ input {
 
 header {
   margin-top: 5%;
+}
+
+.beef_burger {
+  background-image: url('../IMG/beef_burger_resize.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+  width: 100%;
+  color: #FFFFFF;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.beef_burger_division1{
+  grid-column: 1/2;
+  font-size: 1.7em;
+  margin-left: 20px;
+  text-align: left;
+}
+.beef_burger_division2{
+  grid-column: 2/4;
+}
+
+.java_pizza_fractions {
+  background-image: url('../IMG/java_pizza.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 15px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;  
+}
+
+.java_pizza_fraction1 {
+  grid-column: 1/2;
+  text-align: left;
+  margin-left: 15px;
+  font-size: 1.7em;
+}
+
+.java_pizza_fraction2 {
+  grid-column: 2/4;
+}
+
+.order-text-color {
+  color: #FFFFFF;
+}
+
+.arrow {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 3.9em;
+}
+
+.rotate {
+  transform: rotate(220deg);
+}
+
+.next-menu {
+  position: fixed;
+  float: right;
+  left: 85%;
+  top: 45%;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+#style {
+  color: #FFFFFF;
+  margin-top: 7%;
+}
+
+#order-page-background {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+#division {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 25px;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 200px;
+  width: 70%;
+  margin-bottom: 85px;
+}
+
+#division1 {
+  grid-column: 1/2;
+  background-color: #808080;
+  padding: 20px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+#division2 {
+  grid-column: 2/3;
+  background-color: #808080;
+  padding: 20px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+#division3 {
+  grid-column: 3/4;
+  background-color: #808080;
+  padding: 20px;
+  border-radius: 15px;
+}
+.sandwich-page-division {
+  background-image: url('../IMG/breakfast_sandwich_combo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+  width: 100%;
+  color: #FFFFFF;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  
+  font-size: 1.7em;
+}
+
+.sandwich-page-division1 {
+  grid-column: 1/2;
+  text-align: left;
+  margin-left: 20px;
+}
+.yellow-text{
+  color: #FFFF00;
+}
+
+.sandwich-page-division2 {
+  grid-column: 2/4;
 }
