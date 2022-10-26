@@ -4,13 +4,14 @@
 <head>
   <title>CONTACT US</title>
   <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+  <script src="js/scripts.js"></script>
 </head>
 
 <body>
   <div class="navbar">
     <h1 class="page-heading-align-left">JAVA HOUSE</h1>
     <div class="pages-link-align">
-      <a href="MENU.html">Select Menu</a>
+      <a href="index.html">Select Menu</a>
       <a href="HOMEPAGE.html">Our Story</a>
     </div>
   </div>
@@ -38,18 +39,14 @@
         <header>
           <h2>Drop us a line</h2>
         </header>
-        <section>
-          <p>Please feel free to contact us if you have any questions or concerns</p>
-          <form id="feedback" action="/submissions_page.php" target="_blank" method="post">
-            <label id="name-label"></label><br>
+          <form id="feedback" action="#" method="post">
+            Please feel free to contact us if you have any questions or concerns <p>
             <input id="Your-Name" type="text" placeholder="Your Name" value="Your Name" required><br>
-            <label id="email-label"></label><br>
             <input id="Your-Email" type="email" placeholder="Your Email" value="Your Email" required><br>
-            <label id="Message"></label><br>
-            <textarea id="textarea" maxlength="1500" name="Message" placeholder="Message" required></textarea><br>
-            <button>Send Message</button>
+            <textarea id="textarea" cols=50 rows=5 name="Message" placeholder="Message" required></textarea><br>
+            <input class="submitReset" type="SUBMIT" value="Submit message"><br>
+            <input class="submitReset" type="RESET" value="Clear message">
           </form>
-        </section>
       </article>
     </div>
   </div>
